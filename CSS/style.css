@@ -74,11 +74,13 @@ nav ul li a:hover{
 main{
     background-color: rgb(127, 7, 148);
 }
+.main-section{
+    width: 1000px;
+}
 .main-top{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 1000px;
    margin: 0px auto;
    padding: 50px 0px 20px;
    color: rgb(173, 232, 246);
