@@ -68,3 +68,29 @@ nav ul li a:hover{
     cursor: pointer;
 
 }
+
+/*--------------- start main  section -------------*/
+/*--------------- start main top  section -------------*/
+main{
+    background-color: rgb(127, 7, 148);
+}
+.main-top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 1000px;
+   margin: 0px auto;
+   padding: 50px 0px 20px;
+   color: rgb(173, 232, 246);
+}
+.main-top h2{}
+.main-top h4{}
+.main-top span{
+    background-color: rgb(173, 172, 169);
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
