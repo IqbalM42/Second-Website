@@ -158,4 +158,40 @@ main{
 .main-bottom-mid a:hover{
     background-color: cadetblue;
 }
+
+/*--------------- start footer section -------------*/
+footer{
+    background-color: purple;
+}
+.footer-section{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 0px;
+    color: white;
+}
+.footer-section h3{
+    margin: 15px 0px;
+    font-size: 24px;
+}
+
+.footer-first{
+    width: 300px;
+
+}
+.footer-second a{
+    text-decoration: none;
+    color: white;
+    
+}
+.icon-side i{
+    color: white;
+    font-size: 30px;
+    margin: 15px 0px;
+
+}
+.footer-third p:nth-child(3){
+    margin-bottom: 20px;
+}
    
