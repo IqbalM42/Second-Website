@@ -9,6 +9,8 @@ nav{
     align-items: center;
     padding: 10px 150px;
     border-bottom: 2px solid crimson;
+    position: sticky;
+    top: 0;
 }
 nav h2{
     color: white;
@@ -193,5 +195,44 @@ footer{
 }
 .footer-third p:nth-child(3){
     margin-bottom: 20px;
+}
+
+/*--------------- start My Blog section -------------*/
+
+article > h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+article h3 span{
+    color: red;
+}
+.blog-contain{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.blog-contain h3{
+    font-size: 25px;
+    padding: 15px 0px;
+}
+
+.blog-contain img{
+    height: 300px;
+    width: 270px;
+}
+.contain-image-text{
+    height: 500px;
+    width: 270px;
+    box-shadow: 0px 0px 4px 7px rgb(197, 185, 185);
+}
+.contain-image-text p:first-child{
+    color: red;
+}
+.blog-text{
+    padding: 0px 10px;
 }
    
